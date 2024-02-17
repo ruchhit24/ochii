@@ -3,7 +3,7 @@ import React from 'react'
 const Cards = () => {
   return (
       
-        <div className='w-full py-20 bg-white pt-36 border-t-2 border-gray-300'>
+        <div data-scroll data-scroll-speed="-.25" className='w-full py-20 bg-white pt-36 border-t-2 border-gray-300'>
              <div className='flex justify-evenly '>
              <div className='cont1 w-3/5 h-[65vh] bg-[#004D43] mx-10 relative  flex justify-center items-center rounded-3xl hover:scale-95 duration-500 cursor-pointer'>
                 <img src='https://ochi.design/wp-content/uploads/2022/04/logo001.svg' alt='jf' className='absolute '/>

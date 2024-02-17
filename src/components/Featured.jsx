@@ -2,11 +2,11 @@ import React from "react";
 
 const Featured = () => {
   return (
-    <div className="w-full relative mt-28">
+    <div data-scroll data-scroll-speed="-.04" className="w-full relative mt-[52rem]">
       <div className="w-full bg-white pt-24 rounded-tr-3xl rounded-tl-3xl -mt-5 absolute z-[9] bottom-0">
         <div className="px-10 border-b-2 border-gray-300 pb-8">
-          <h1 className="text-6xl font-anton leading-2   ">
-            {" "}
+          <h1 className="text-6xl font-anton leading-2">
+            
             Featured Projects
           </h1>
         </div>
