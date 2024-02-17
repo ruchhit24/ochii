@@ -3,7 +3,7 @@ import { FaArrowUpLong } from "react-icons/fa6";
 const Landing = () => {
   return (
     <div className='w-full h-full pt-1 bg-zinc-900'>
-    <div className='mt-40 px-20 font-anton text-gray-300'>
+    <div className='mt-40 px-20 font-anton text-gray-100'>
          {["WE CREATE","EYE-OPENING","PRESENTATIONS"].map((item,index)=>{
             return (
                 <div className='heading'>
@@ -11,7 +11,7 @@ const Landing = () => {
                     {index===1 && (
                         <div className='bg-green-500 w-[8vw] h-[4.2vw] mr-5 relative top-[0.5vw]'></div>
                     )}
-                    <h1 key={index} className='-mb-[1vw] pt-[2vw] font-semibold leading-[.90] text-[6vw] '>{item}</h1>
+                    <h1 key={index} className='-mb-[1vw] pt-[2vw] leading-[0.8] text-[6vw]  '>{item}</h1>
                     </div>
                 </div>              
             )
