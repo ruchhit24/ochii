@@ -1,4 +1,5 @@
 import About from "./components/About.jsx"
+import Cards from "./components/Cards.jsx"
 import Eyes from "./components/Eyes.jsx"
 import Featured from "./components/Featured.jsx"
 import Landing from "./components/Landing.jsx"
@@ -18,6 +19,7 @@ function App() {
       <About/>
       <Eyes/>
       <Featured/>
+      <Cards/>
     </div>
    </>
   )
